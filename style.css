@@ -1,0 +1,26 @@
+.a {
+    border: 7px solid red;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px 50px 0px 0px;
+}
+.b {
+    border-top: 7px red solid;
+    border-bottom: 7px red solid;
+    border-right: 7px red solid;
+    border-left: 7px red solid;
+    width: 70px;
+    height: 70px;
+    border-radius:0 0 50px 50px ;
+}
+.c {
+    border-bottom: 7px red solid;
+    border-left: 7px red solid;
+    width: 70px;
+    height: 70px;
+    border-radius:50px 0px 50px 50px ;
+}
+    
+
+    
+    
