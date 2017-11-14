@@ -1,0 +1,70 @@
+.b,.e,.a,.c,.q div,.n,.w,.z {
+    outline: 1px black solid;
+}
+
+.a {
+    width: calc(100%/8);
+    height: 100%;
+    float: left;
+}
+
+.b {
+    margin: 50px;
+    padding: 0px;
+    width: 80vmin;
+    height: 80vmin;
+}
+
+.c,.z{
+    height: calc(100%/8);
+
+
+}
+
+.q {
+    width: 100%;
+    height: 5%;
+    float: left;
+    padding-left: 5%;
+}
+
+.w,.r {
+    height: 90%;
+    float: left;
+    width: 5%
+}
+
+.e {
+    height: 90%;
+    float: left;
+    width: 90%
+}
+
+.t {
+    clear: both;
+    height: 5%;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.n {
+    width: calc(90%/8);
+    height: 100%;
+    float: left;
+}
+
+.black {
+    background-color: black;
+}
+
+.z,.n {
+    text-align: center;
+    font-size: 3vmin;
+}
+.rook{
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    background-size: 70vmin 100%;
+    background-position:-124px -5px;
+   overflow: hidden;
+}
