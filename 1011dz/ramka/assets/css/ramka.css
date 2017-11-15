@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+}
+
+
+td {
+    padding: 0px;
+}
+
+.tl {
+    background: url(../img/tl.png);
+    background-position: top left;
+    width: 99px;
+    height: 99px;
+}
+
+.tg {
+    background: url(../img/g.png);
+    background-repeat: repeat-x;
+}
+
+.tr {
+    background: url(../img/tr.png);
+    background-position: top right;
+    width: 99px;
+    height: 99px;
+}
+
+.cl {
+    background: url(../img/v.png);
+    background-repeat: repeat-y;
+}
+
+.center {
+    text-align: center;
+    font-size: 30px;
+    line-height: 120%;
+
+}
+
+.cr {
+    background: url(../img/v.png);
+    background-position: right;
+    background-repeat: repeat-y;
+}
+
+.bl {
+    background: url(../img/bl.png);
+    background-position: bottom left;
+    height: 99px;
+}
+
+.bg {
+    background: url(../img/g.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.br {
+    background: url(../img/br.png);
+    background-position: bottom right;
+    height: 99px;
+}
