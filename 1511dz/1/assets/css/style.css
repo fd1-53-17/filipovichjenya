@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border: solid 1px red;
+    width: 100%;
+    margin: 0px;
+}
+
+.header {
+    color: #0000ff;
+    letter-spacing: 2px;
+    padding: 14px;
+    font-size: 23px;
+    padding: auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #add8e6
+}
+
+.menu {
+    vertical-align: top;
+    width: 200px;
+    background-color: #f0e68c;
+    padding: 10px;
+}
+
+.content {
+    width: calc(100% - 200px);
+    padding: 20px;
+}
+
+.img {
+    float: left;
+    padding-right: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.caption{
+   text-align: left;
+   font-size: 20px;
+   font-weight: bold;
+}
+ul>li{
+    text-align: left;
+}

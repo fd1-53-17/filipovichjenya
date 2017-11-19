@@ -1,0 +1,68 @@
+.row{
+    position: relative;
+}
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n,.o,.p,.q{
+    position: absolute;
+}
+.a{
+    top: 0;
+    left:10px;
+}
+.b{
+    top: 0;
+    left: 20px;
+}
+.d{
+    left: 20px;
+}
+.e{
+    left:10px;
+}
+.f{
+    left: 10px;
+    top: 20px;
+}
+.g{
+    left:0;
+    top:20px;
+}
+.h{
+    left:20px;
+    top:20px;
+}
+.i{
+    left:20px;
+    top:40px;
+}
+.j{
+    left:0;
+    top:40px;
+}
+.k{
+    left:10px;
+    top:40px;
+}
+.l{
+    left:10px;
+    top:60px;
+}
+.m{
+    left:20px;
+    top:60px;
+}
+.n{
+    left:0;
+    top:60px;
+}
+.o{
+    left:20px;
+    top:80px;
+}
+.p{
+    left:10px;
+    top:80px;
+}
+.q{
+    left:0;
+    top:80px;
+}
