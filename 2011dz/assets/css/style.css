@@ -1,0 +1,194 @@
+.chessTable {
+  width: 100vmin;
+  height: 100vmin;
+  margin: auto;
+  padding: 10vmin;
+  counter-reset: number;
+}
+
+.chessTable>div {
+  outline: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: calc(470vmin / 8);
+  width: 10%;
+  height: 10%;
+  float: left;
+}
+
+.chessTable>div:nth-of-type(8n+9) {
+  clear: left;
+}
+
+.chessTable>div:nth-of-type(n+1):nth-of-type(-n+8):nth-of-type(even) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(n+9):nth-of-type(-n+16):nth-of-type(odd) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(n+17):nth-of-type(-n+24):nth-of-type(even) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(n+25):nth-of-type(-n+32):nth-of-type(odd) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(n+33):nth-of-type(-n+40):nth-of-type(even) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(n+41):nth-of-type(-n+48):nth-of-type(odd) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(n+49):nth-of-type(-n+56):nth-of-type(even) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(n+57):nth-of-type(-n+64):nth-of-type(odd) {
+  background-color: gray;
+}
+
+.chessTable>div:nth-of-type(-n+8)::before {
+  font-size: 2em;
+  display: block;
+  text-align: center;
+  margin-top: -38px;
+}
+
+.chessTable>div:nth-of-type(1)::before {
+  content: "a"
+}
+
+.chessTable>div:nth-of-type(2)::before {
+  content: "b"
+}
+
+.chessTable>div:nth-of-type(3)::before {
+  content: "c"
+}
+
+.chessTable>div:nth-of-type(4)::before {
+  content: "d"
+}
+
+.chessTable>div:nth-of-type(5)::before {
+  content: "e"
+}
+
+.chessTable>div:nth-of-type(6)::before {
+  content: "f"
+}
+
+.chessTable>div:nth-of-type(7)::before {
+  content: "g"
+}
+
+.chessTable>div:nth-of-type(8)::before {
+  content: "h"
+}
+
+.chessTable>div:nth-of-type(8n+1)::after {
+  counter-increment: number;
+  content: counter(number);
+  font-size: 2em;
+  display: block;
+  margin-left: -24px;
+  margin-top: 10px
+}
+
+.chessTable>div:nth-of-type(-n+16) {
+  background-image: url(../img/chess.png);
+}
+
+.chessTable>div:nth-of-type(n+49) {
+  background-image: url(../img/chess.png);
+}
+
+.chessTable>div:nth-of-type(7n+1) {
+  background-position: 40% 0%;
+}
+
+.chessTable>div:nth-of-type(5n+2) {
+  background-position: 84% 0%;
+}
+
+.chessTable>div:nth-of-type(3n+3) {
+  background-position: 62% 0;
+}
+
+.chessTable>div:nth-of-type(4) {
+  background-position: 0% 0%;
+}
+
+.chessTable>div:nth-of-type(5) {
+  background-position: 20% 0;
+}
+
+.chessTable>div:nth-of-type(n+9):nth-child(-n+16) {
+  background-position: 105% 0;
+}
+
+.chessTable>div:nth-last-of-type(7n+1):not(:nth-last-of-type(n+9)) {
+  background-position: 40% 108%;
+}
+
+.chessTable>div:nth-last-of-type(5n+2):not(:nth-last-of-type(n+9)) {
+  background-position: 84% 108%;
+}
+
+.chessTable>div:nth-last-of-type(3n+3):not(:nth-last-of-type(n+9)) {
+  background-position: 62% 108%;
+}
+
+.chessTable>div:nth-last-of-type(5) {
+  background-position: 0% 108%;
+}
+
+.chessTable>div:nth-last-of-type(4) {
+  background-position: 20% 108%;
+}
+
+.chessTable>div:nth-last-of-type(n+9):nth-last-of-type(-n+16) {
+  background-position: 105% 108%;
+}
+
+.chessTable>div:nth-of-type(7n+1):not(:nth-of-type(n+9)):hover {
+  background-position: 40% 108%;
+}
+
+.chessTable>div:nth-last-of-type(7n+1):not(:nth-last-of-type(n+9)):hover {
+  background-position: 40% 0%;
+}
+.chessTable>div:nth-of-type(5n+2):not(:nth-of-type(n+9)):hover {
+  background-position: 84% 108%;
+}
+.chessTable>div:nth-last-of-type(5n+2):not(:nth-last-of-type(n+9)):hover {
+  background-position: 84% 0%;
+}
+.chessTable>div:nth-of-type(3n+3):not(:nth-of-type(n+9)):hover {
+  background-position: 62% 108%;
+}
+.chessTable>div:nth-last-of-type(3n+3):not(:nth-last-of-type(n+9)):hover {
+  background-position: 62% 0%;
+}
+.chessTable>div:nth-of-type(4):hover {
+  background-position: 0% 108%;
+}
+.chessTable>div:nth-last-of-type(5):hover {
+  background-position: 0% 0%;
+}
+.chessTable>div:nth-of-type(5):hover {
+  background-position: 20% 108%;
+}
+.chessTable>div:nth-last-of-type(4):hover {
+  background-position: 20% 0%;
+}
+.chessTable>div:nth-of-type(n+9):nth-child(-n+16):hover {
+   background-position: 105% 108%;
+}
+.chessTable>div:nth-last-of-type(n+9):nth-last-of-type(-n+16):hover {
+  background-position: 105% 0%;
+}
