@@ -1,0 +1,136 @@
+.wrapper {
+    margin: auto;
+    width: 960px;
+    position: relative;
+    background-color: gray;
+    
+
+}
+
+header {
+    position: relative;
+    background-color: #A9A9A9;
+    width: 960px;
+}
+
+.log {
+    height: 110px;
+    width: 120px;
+    background-color: #D3D3D3;
+}
+
+.inf {
+    height: 110px;
+    width: 280px;
+    position: absolute;
+    top: 0px;
+    left: 141px;
+    background-color: #D3D3D3;
+}
+
+.tel {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 110px;
+    width: 515px;
+    background-color: #D3D3D3;
+}
+
+main {
+    position: relative;
+    width: 960px;
+}
+
+aside {
+    position: relative;
+    height: 780px;
+    width: 185px;
+    background-color: gray;
+}
+
+.a {
+    height: 340px;
+    background-color: #D3D3D3;
+}
+
+.b {
+    position: absolute;
+    bottom: 0;
+    height: 130px;
+    width: 185px;
+    background-color: #D3D3D3;
+}
+
+article {
+    position: absolute;
+    background-color: gray;
+    width: 760px;
+    height: 780px;
+    padding-left: 15px;
+    top: 0;
+    left: 185px;
+}
+
+.kolonka1 {
+    background-color: #D3D3D3;
+    height: 210px;
+}
+
+ul {
+    position: relative;
+    padding: 0;
+    text-align: justify;
+
+
+}
+
+li {
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+    background-color: #D3D3D3;
+    /*margin: 20px 18px 0 0;*/
+
+}
+.last{
+    margin-left: 23px;
+}
+footer {
+   position: relative;
+   height: 180px;
+   width: 960px;
+   background-color: gray;
+}
+.foot1 {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 180px;
+   width: 300px;
+   background-color: #D3D3D3;
+}
+.foot2 {
+   position: absolute;
+   top: 0px;
+   left: 320px;
+   height: 180px;
+   width: 300px;
+   background-color: #D3D3D3;
+}
+.foot3 {
+   position: absolute;
+   top: 0px;
+   left: 650px;
+   height: 80px;
+   width: 300px;
+   background-color: #D3D3D3;
+}
+.foot4 {
+   position: absolute;
+   top: 100px;
+   left: 650px;
+   height: 80px;
+   width: 300px;
+   background-color: #D3D3D3;
+}
