@@ -1,0 +1,26 @@
+div {
+    background: url(../img/cards2.png) 0 0 no-repeat;
+    height: 189px;
+    width: 140px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.three {
+    background-position: -287px -194px;
+    z-index: 30;
+}
+
+.seven {
+    background-position: -144px -970px;
+    left: 50px;
+    top: 40px;
+    z-index: 20;
+}
+
+.ace {
+    background-position: -432px -2328px;
+    left: 100px;
+    top: 80px;
+    z-index: 10;
+}
