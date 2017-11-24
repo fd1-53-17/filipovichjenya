@@ -1,0 +1,27 @@
+div{
+    display: block;
+    left:30px;
+    width: 55px;
+    height: 55px;
+    background-color:gray;
+    border:solid 5px pink;
+    outline: solid black 5px;
+    position: absolute;
+    top: 30px;
+    z-index:3;
+    
+    
+}
+div:before{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 45px;
+    height:45px;
+    background-color: red;
+    left: 5px;
+    top: 5px;
+    z-index:1;
+    box-shadow:inset 0 0 0 5px green,  0 0 0 5px gold;
+    
+}
