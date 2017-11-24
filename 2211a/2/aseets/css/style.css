@@ -1,0 +1,33 @@
+.wrapper {
+    padding: 15px 50px 15px 30px;
+    width: 600px;
+    margin: auto;
+    font-size: 1.1em;
+    font-family: monospace
+}
+
+.wrapper>div:nth-of-type(-n+3) {
+    border: 1px solid rgb(224, 224, 224);
+    padding: 10px;
+    background-color: rgb(246, 245, 243);
+}
+
+.wrapper>div:nth-of-type(3) {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 30px;
+}
+
+.st {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    background-color: rgb(246, 245, 243);
+    border: 1px solid rgb(224, 224, 224);
+    padding: 3px 3px 0 3px;
+}
+
+h1 {
+    font-size: 1.1em;
+}
