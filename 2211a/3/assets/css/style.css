@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(243, 245, 246)
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    /*outline: solid red 1px;*/
+}
+
+.a1 {
+    height: 300px;
+    border-radius: 0 20px 20px 20px;
+    background-color: rgb(207, 164, 72);
+    position: relative;
+}
+
+.a2 {
+    width: 133px;
+    height: 30px;
+    background-color: rgb(207, 164, 72);
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: -17px;
+}
+
+.wrapper>div:nth-of-type(-n+3) {
+    position: absolute;
+    left: 13px;
+    width: 370px;
+}
+
+.wrapper>div:nth-of-type(-n+3) {
+    height: 200px;
+    background-color: rgb(228, 231, 232);
+    z-index: 1;
+    border-radius: 6px;
+    border: solid 2px rgb(252, 252, 253);
+}
+
+.wrapper>div:nth-of-type(4) {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(255, 208, 89);
+    z-index: 5;
+    border-radius: 20px;
+    bottom: 0;
+}
+
+.wrapper>div:nth-of-type(1) {
+    bottom: 80px;
+    transform: scale(0.8);
+    display: block;
+}
+
+.wrapper>div:nth-of-type(2) {
+    bottom: 50px;
+    transform: scale(0.9)
+}
+
+.wrapper>div:nth-of-type(3) {
+    bottom: 20px;
+}
+
+.krug {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(244, 77, 81);
+    border-radius: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.krug::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 169, 22);
+    position: absolute;
+    left: 15px;
+    border-radius: 10px;
+}
+
+.krug::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(58, 204, 151);
+    position: absolute;
+    left: 30px;
+    border-radius: 10px;
+}
+
+.poloski {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 10px;
+    height: 3px;
+    background-color: rgb(164, 166, 166);
+}
+
+.poloski::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-color: rgb(164, 166, 166);
+    top: 5px;
+}
+
+.poloski::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background-color: rgb(164, 166, 166);
+    top: 10px;
+}
+.f:hover{
+    transform: translatex(100px);
+}
