@@ -1,0 +1,32 @@
+.main {
+    margin: 25px auto;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+}
+
+.handle {
+    width: 60px;
+    height: 20px;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    top: 200px;
+
+}
+
+.saber {
+    position: absolute;
+    left: 60px;
+    top: 205px;
+    height: 10px;
+    width: 2px;
+    border-radius: 0 6px 6px 0;
+    box-shadow: inset 0 0 20px 6px #87CEEB, 0 0 20px 6px #87CEEB;
+    transition: width 1s ease;
+}
+
+.handle:hover~.saber {
+    width: 250px;
+}
