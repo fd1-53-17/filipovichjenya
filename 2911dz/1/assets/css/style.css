@@ -1,0 +1,89 @@
+body>div {
+    width: 80%;
+    margin: auto;
+}
+
+body>div:nth-of-type(1) {
+
+    text-align: center;
+}
+
+input[name=food] {
+    display: none;
+}
+
+form {
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0px;
+    margin-top: 35vmin;
+    width: 100%;
+}
+
+.menu>div {
+    width: 240px;
+    display: inline-block;
+    background-size: cover;
+    position: relative;
+}
+
+img {
+    width: 100%
+}
+
+.menu>div>div {
+    position: absolute;
+    bottom: 0;
+    font-size: 1em;
+    opacity: 0;
+}
+
+.menu>div:hover div {
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 3s;
+         -o-transition-duration: 3s;
+            transition-duration: 3s;
+}
+
+[type=radio]:not(:checked)+div {
+    opacity: 0;
+    top: -9999px;
+}
+
+[type=radio]:checked+div {
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 3s;
+         -o-transition-duration: 3s;
+            transition-duration: 3s;
+}
+
+[type=radio]:checked+div+label {
+    font-size: 20px;
+}
+
+@media all and (max-width: 320px) {
+    .menu {
+        top: 63vmin;
+
+    }
+    form {
+        font-size: 5em;
+    }
+    body {
+        margin: 0;
+    }
+    label {
+        padding: 10px;
+    }
+}
