@@ -1,0 +1,19 @@
+.chessTable {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-flow: row wrap;
+}
+
+.chessTable>div {
+    width: 30px;
+    height: 30px;
+    outline: solid gray 1px;
+}
+
+.black {
+    background-color: black;
+}
+div{
+    text-align: center;
+}
