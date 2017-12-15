@@ -1,0 +1,14 @@
+@mainColor: #f7f193;
+body {
+    color: @mainColor - #111111;
+    background-color: @mainColor;
+}
+
+.roundBorder(@br, @bw, @bs, @bc) {
+    border: @bw @bs @bc;
+    border-radius: @br;
+}
+
+button {
+    .roundBorder(12px, 10px, dashed, saturate(green,40%));
+}
